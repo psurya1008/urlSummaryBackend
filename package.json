@@ -1,0 +1,17 @@
+{
+  "name": "url-summarizer-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^2.6.7",
+    "openai": "^4.30.1"
+  }
+}
